@@ -4,7 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-decoration-color: aqua;
     }
+a {
+    color: #007bff;
+    text-decoration: none;
+}
 
 .container {
     max-width: 800px;
@@ -25,7 +30,7 @@ body {
     font-size: 14px;
 }
 
-.contact a {
+.contact class-contact {
     color: #007bff;
     text-decoration: none;
 }

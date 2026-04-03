@@ -1,0 +1,9 @@
+.button {
+    display: inline-block;
+    text-decoration: underline;
+    color: #04040c;
+    border: none;
+    padding: 5px 10px; 
+    border-radius: 4px;
+    background: linear-gradient(360deg, rgba(235, 216, 12, 1) 0%, rgb(193, 97, 228) 35%, rgba(0, 212, 255, 1) 100%);
+}
