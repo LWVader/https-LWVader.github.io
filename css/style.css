@@ -110,3 +110,30 @@ a {
     margin-bottom: 14px;
     border-bottom: 2px solid #000000;
 }
+.portfolio-bio {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.portfolio-bio p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+blockquote {
+    border-left: 4px solid #007bff; 
+    padding-left: 20px;
+    margin: 2rem 0;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #412b2b;
+}
+
+.closing {
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
