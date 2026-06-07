@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+    text-align: center;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #d1def1;
     text-decoration-color: aqua;
     }
 a {
@@ -12,39 +13,82 @@ a {
 }
 
 .main {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;  
+    align-items: center;
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: #f0f0ed;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 } 
 
+.header {
+    background: #0d1117;             
+    border: 2px solid #080cf3;       
+    border-radius: 6px;
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.541);
+}
+
 .header h1 {
-    text-align: center;
-    margin: 10px 0;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    color: #0f172a;    
+    -webkit-text-stroke: 1.5px #00d4ff;   
+    text-shadow: 
+        0 0 4px rgba(0, 212, 255, 0.6),
+        0 0 12px rgba(0, 212, 255, 0.3);
 }
 
 .contact {
-    margin: 10px 0;
-    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;                  /* Spaces the items out perfectly */
+    margin: 20px 0;
+    padding: 0;
 }
 
-.contact class-contact {
-    color: #007bff;
+
+.contact-item {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 13px;
+    color: #12e40b;             
+    background: #11121a;        
+    border: 1px solid #9158d3;  
+    padding: 6px 14px;
+    border-radius: 20px;        
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
 
-.contact a:hover {
-    text-decoration: underline;
+a.contact-item {
+    color: #12e40b;             
+}
+
+a.contact-item:hover {
+    color: #fffb00;             
+    background: #161b2c;
+    border-color: #ff0000;      
+    box-shadow: 0 0 12px rgba(255, 136, 0, 0.35);
+    text-decoration: none;      
 }
 
 .section {
     margin: 20px 0;
+    text-align: center;
 }
 
 .section h2 {
-     text-align: center;
+    text-align: center;
     filter: drop-shadow(2px 2px 2px rgba(214, 6, 233, 0.979));
     margin: 5px 0;
     background: linear-gradient(360deg,rgba(235, 216, 12, 1) 0%, rgba(91, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);

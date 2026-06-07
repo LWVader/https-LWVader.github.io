@@ -3,8 +3,23 @@
     text-decoration: underline;
     color: #04040c;
     border: none;
+    font-weight: bold;
     padding: 5px 10px;
     margin: 10px 5px;
     border-radius: 4px;
+    background: linear-gradient(360deg, rgba(235, 216, 12, 1) 0%, rgb(193, 97, 228) 35%, rgba(0, 212, 255, 1) 100%);
+}
+#load-projects-btn {
+    display: block;              
+    text-decoration: underline;
+    color: #04040c;
+    border: none;       
+    padding: 15px 30px;          
+    font-size: 1.25rem;          
+    font-weight: bold;           
+    margin: 30px auto;              
+    border-radius: 8px;         
+    cursor: pointer;             
+    
     background: linear-gradient(360deg, rgba(235, 216, 12, 1) 0%, rgb(193, 97, 228) 35%, rgba(0, 212, 255, 1) 100%);
 }
